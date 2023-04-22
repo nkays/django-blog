@@ -3,8 +3,8 @@ name: Give a name any name
 on:
   workflow_call:
   workflow_dispatch:
-  push:
-    branches: [main]
+  # push:
+  #   branches: [main]
 
 jobs:
   test_my_django_project:
